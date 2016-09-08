@@ -24,6 +24,10 @@
         "source": "/Users/appcreator06/AndroidStudioProjects/Memory/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-xxhdpi-v4/abc_list_divider_mtrl_alpha.9.png"
     },
     {
+        "merged": "/Users/appcreator06/AndroidStudioProjects/Memory/Application/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/dog.jpg",
+        "source": "/Users/appcreator06/AndroidStudioProjects/Memory/Application/src/main/res/drawable-xxhdpi/dog.jpg"
+    },
+    {
         "merged": "/Users/appcreator06/AndroidStudioProjects/Memory/Application/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_launcher.png",
         "source": "/Users/appcreator06/AndroidStudioProjects/Memory/Application/src/main/res/drawable-xxhdpi/ic_launcher.png"
     },
@@ -68,6 +72,10 @@
         "source": "/Users/appcreator06/AndroidStudioProjects/Memory/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-xxhdpi-v4/abc_ic_star_half_black_36dp.png"
     },
     {
+        "merged": "/Users/appcreator06/AndroidStudioProjects/Memory/Application/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/familyimg2.jpg",
+        "source": "/Users/appcreator06/AndroidStudioProjects/Memory/Application/src/main/res/drawable-xxhdpi/familyimg2.jpg"
+    },
+    {
         "merged": "/Users/appcreator06/AndroidStudioProjects/Memory/Application/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_ic_star_half_black_48dp.png",
         "source": "/Users/appcreator06/AndroidStudioProjects/Memory/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-xxhdpi-v4/abc_ic_star_half_black_48dp.png"
     },
@@ -100,6 +108,10 @@
         "source": "/Users/appcreator06/AndroidStudioProjects/Memory/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-xxhdpi-v4/abc_list_pressed_holo_dark.9.png"
     },
     {
+        "merged": "/Users/appcreator06/AndroidStudioProjects/Memory/Application/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/moon.jpg",
+        "source": "/Users/appcreator06/AndroidStudioProjects/Memory/Application/src/main/res/drawable-xxhdpi/moon.jpg"
+    },
+    {
         "merged": "/Users/appcreator06/AndroidStudioProjects/Memory/Application/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_ic_star_black_36dp.png",
         "source": "/Users/appcreator06/AndroidStudioProjects/Memory/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-xxhdpi-v4/abc_ic_star_black_36dp.png"
     },
@@ -118,6 +130,10 @@
     {
         "merged": "/Users/appcreator06/AndroidStudioProjects/Memory/Application/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_btn_check_to_on_mtrl_015.png",
         "source": "/Users/appcreator06/AndroidStudioProjects/Memory/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-xxhdpi-v4/abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "/Users/appcreator06/AndroidStudioProjects/Memory/Application/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/familyimg1.jpg",
+        "source": "/Users/appcreator06/AndroidStudioProjects/Memory/Application/src/main/res/drawable-xxhdpi/familyimg1.jpg"
     },
     {
         "merged": "/Users/appcreator06/AndroidStudioProjects/Memory/Application/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_ic_menu_share_mtrl_alpha.png",
@@ -156,15 +172,15 @@
         "source": "/Users/appcreator06/AndroidStudioProjects/Memory/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-xxhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png"
     },
     {
+        "merged": "/Users/appcreator06/AndroidStudioProjects/Memory/Application/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "/Users/appcreator06/AndroidStudioProjects/Memory/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-xxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
         "merged": "/Users/appcreator06/AndroidStudioProjects/Memory/Application/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_btn_check_to_on_mtrl_000.png",
         "source": "/Users/appcreator06/AndroidStudioProjects/Memory/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-xxhdpi-v4/abc_btn_check_to_on_mtrl_000.png"
     },
     {
         "merged": "/Users/appcreator06/AndroidStudioProjects/Memory/Application/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_scrubber_track_mtrl_alpha.9.png",
         "source": "/Users/appcreator06/AndroidStudioProjects/Memory/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-xxhdpi-v4/abc_scrubber_track_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "/Users/appcreator06/AndroidStudioProjects/Memory/Application/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png",
-        "source": "/Users/appcreator06/AndroidStudioProjects/Memory/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-xxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png"
     }
 ]

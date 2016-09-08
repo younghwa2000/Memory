@@ -16,17 +16,16 @@
   -->
 <resources>
     <string-array name="planets_array">
-        <item>Mercury</item>
-        <item>Venus</item>
-        <item>Earth</item>
-        <item>Mars</item>
-        <item>Jupiter</item>
-        <item>Saturn</item>
-        <item>Uranus</item>
-        <item>Neptune</item>
+        <item>가족</item>
+        <item>친구</item>
+        <item>애완동물</item>
     </string-array>
     <string name="drawer_open">Open navigation drawer</string>
     <string name="drawer_close">Close navigation drawer</string>
     <string name="action_websearch">Web search</string>
     <string name="app_not_available">Sorry, there\'s no web browser available</string>
+    <string name="menu_share">Share</string>
+    <string name="quote_1">Yum. Yum. delicious chicken. I ate chicken with my friends today.(2016.9.6.Tue)</string>
+    <string name="quote_2">Pizza is a best food!!!</string>
+    <string name="quote_3">Ahhhhhh.........</string>
 </resources>

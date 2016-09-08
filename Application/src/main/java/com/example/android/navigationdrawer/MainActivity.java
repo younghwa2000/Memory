@@ -21,6 +21,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.content.res.Resources;
 import android.os.Bundle;
+import android.os.Handler;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.ViewTreeObserver;
@@ -38,7 +39,7 @@ public class MainActivity extends Activity implements AdapterView.OnItemClickLis
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.firstpage);
 
         // Prepare list of samples in this dashboard.
         mSamples = new Sample[]{
@@ -48,7 +49,7 @@ public class MainActivity extends Activity implements AdapterView.OnItemClickLis
 
         // Prepare the GridView
         mGridView = (GridView) findViewById(android.R.id.list);
-        mGridView.setAdapter(new SampleAdapter());
+
         mGridView.setOnItemClickListener(this);
     }
 
