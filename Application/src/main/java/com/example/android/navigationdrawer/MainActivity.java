@@ -49,7 +49,7 @@ public class MainActivity extends Activity implements AdapterView.OnItemClickLis
 
         // Prepare the GridView
         mGridView = (GridView) findViewById(android.R.id.list);
-
+        mGridView.setAdapter(new SampleAdapter());
         mGridView.setOnItemClickListener(this);
     }
 
