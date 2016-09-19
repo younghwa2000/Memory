@@ -74,6 +74,7 @@ public class NavigationDrawerActivity extends Activity implements PlanetAdapter.
     private CharSequence mTitle;
     private String[] mPlanetTitles;
     static ImageView iv;
+    static int imgType;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -172,7 +173,7 @@ public class NavigationDrawerActivity extends Activity implements PlanetAdapter.
 
     private void selectItem(int position) {
         // update the main content by replacing fragments
-        Fragment fragment = PlanetFragment.newInstance(position,);
+        Fragment fragment = PlanetFragment.newInstance(position, this);
 
         FragmentManager fragmentManager = getFragmentManager();
         FragmentTransaction ft = fragmentManager.beginTransaction();
@@ -217,7 +218,8 @@ public class NavigationDrawerActivity extends Activity implements PlanetAdapter.
     @Override
     public void onClick(View v) {
         Intent intent=new Intent(this,ViewPagerActivity.class);
-        //startActivity();
+        intent.putExtra("imgType",imgType);
+        startActivity(intent);
     }
 
     /**
@@ -245,25 +247,21 @@ public class NavigationDrawerActivity extends Activity implements PlanetAdapter.
                                  Bundle savedInstanceState) {
             View rootView = null;
             int i = getArguments().getInt(ARG_PLANET_NUMBER);
-            String planet = getResources().getStringArray(R.array.planets_array)[i];
 
-            int imageId = getResources().getIdentifier(planet.toLowerCase(Locale.getDefault()),
-                    "drawable", getActivity().getPackageName());
-
-
-
-
-            getActivity().setTitle(planet);
-            if(i==0)
+            if(i==0) {
                 rootView = inflater.inflate(R.layout.family_photo, container, false);
-            else if(i==1)
+                iv = ((ImageView) rootView.findViewById(R.id.family1));
+                imgType=0;
+            }else if(i==1) {
                 rootView = inflater.inflate(R.layout.freinds_photo, container, false);
-            else if(i==2)
+                iv = ((ImageView) rootView.findViewById(R.id.mercury));
+            }else if(i==2) {
                 rootView = inflater.inflate(R.layout.animals_photo, container, false);
+                iv = ((ImageView) rootView.findViewById(R.id.dog));
+            }
 
-            iv = ((ImageView) rootView.findViewById(R.id.family1));
             iv.setOnClickListener(m_nda);
-            iv.setImageResource(imageId);
+
             return rootView;
         }
     }
